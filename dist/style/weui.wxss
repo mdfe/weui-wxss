@@ -287,7 +287,7 @@ icon {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
-  color: #3CC51F;
+  color: #1E88E5;
   text-align: center;
 }
 .weui-form-preview__btn:after {
@@ -310,7 +310,7 @@ icon {
   color: #999999;
 }
 .weui-form-preview__btn_primary {
-  color: #0BB20C;
+  color: #1E88E5;
 }
 .weui-cell_select {
   padding: 0;
@@ -365,15 +365,22 @@ icon {
   line-height: 2.58823529em;
   vertical-align: middle;
   font-size: 17px;
-  color: #3CC51F;
+  color: #1E88E5;
   white-space: nowrap;
 }
 .weui-vcode-btn:active {
-  color: #52a341;
+  color: #4486bf;
+}
+.weui-slider .wx-slider-track {
+  background-color: #1E88E5 !important;
 }
 .weui-cell_switch {
   padding-top: 6px;
   padding-bottom: 6px;
+}
+.weui-cell_switch .weui-cell__ft .weui_switch:checked {
+  border-color: #1E88E5 !important;
+  background-color: #1E88E5 !important;
 }
 .weui-uploader__hd {
   display: -webkit-box;
@@ -551,6 +558,19 @@ icon {
 }
 .weui-btn:first-child {
   margin-top: 0;
+}
+.weui-btn[type=primary] {
+  background-color: #1E88E5;
+}
+.weui-btn[type=primary]:active {
+  background-color: #1565c0;
+}
+.weui-btn[disabled][type=primary]:not([plain]) {
+  background-color: #90caf9;
+}
+.weui-btn[type=primary][plain] {
+  color: #1E88E5;
+  border-color: #1E88E5;
 }
 .weui-btn-area {
   margin: 1.17647059em 15px 0.3em;
@@ -901,6 +921,9 @@ icon {
   -webkit-flex: 1;
           flex: 1;
 }
+.weui-progress__bar .wx-progress-inner-bar {
+  background-color: #1E88E5 !important;
+}
 .weui-progress__opr {
   margin-left: 15px;
   font-size: 0;
@@ -926,7 +949,7 @@ icon {
   font-size: 0;
 }
 .weui-navbar__item.weui-bar__item_on {
-  color: #1AAD19;
+  color: #1E88E5;
 }
 .weui-navbar__slider {
   position: absolute;
@@ -935,7 +958,7 @@ icon {
   bottom: 0;
   width: 6em;
   height: 3px;
-  background-color: #1AAD19;
+  background-color: #1E88E5;
   -webkit-transition: -webkit-transform .3s;
   transition: -webkit-transform .3s;
   transition: transform .3s;
@@ -1032,6 +1055,6 @@ icon {
 .weui-search-bar__cancel-btn {
   margin-left: 10px;
   line-height: 28px;
-  color: #09BB07;
+  color: #1E88E5;
   white-space: nowrap;
 }

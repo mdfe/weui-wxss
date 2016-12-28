@@ -92,7 +92,7 @@
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
-  color: #3CC51F;
+  color: #1E88E5;
   text-align: center;
 }
 .weui-form-preview__btn:after {
@@ -115,5 +115,5 @@
   color: #999999;
 }
 .weui-form-preview__btn_primary {
-  color: #0BB20C;
+  color: #1E88E5;
 }

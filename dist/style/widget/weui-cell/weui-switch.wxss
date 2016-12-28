@@ -2,3 +2,7 @@
   padding-top: 6px;
   padding-bottom: 6px;
 }
+.weui-cell_switch .weui-cell__ft .weui_switch:checked {
+  border-color: #1E88E5 !important;
+  background-color: #1E88E5 !important;
+}

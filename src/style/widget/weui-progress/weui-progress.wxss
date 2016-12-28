@@ -7,6 +7,9 @@
 
 .weui-progress__bar {
     flex: 1;
+    .wx-progress-inner-bar{
+        background-color: @weuiColorPrimary !important;
+    }
 }
 
 .weui-progress__opr {

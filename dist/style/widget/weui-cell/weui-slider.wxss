@@ -1,0 +1,3 @@
+.weui-slider .wx-slider-track {
+  background-color: #1E88E5 !important;
+}

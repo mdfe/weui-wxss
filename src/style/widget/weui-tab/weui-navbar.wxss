@@ -1,6 +1,6 @@
 @import "../../base/fn.wxss";
 
-@weuiNavBarColor: #1AAD19;
+@weuiNavBarColor: @weuiColorPrimary;
 .weui-navbar {
     display: flex;
     position: absolute;

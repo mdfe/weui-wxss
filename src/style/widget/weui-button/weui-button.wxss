@@ -5,6 +5,19 @@
     &:first-child{
         margin-top: 0;
     }
+    &[type=primary]{
+        background-color: @weuiColorPrimary;
+        &:active {
+            background-color: @weuiColorPrimaryDark;
+        }
+    }
+    &[disabled][type=primary]:not([plain]){
+        background-color: @weuiColorPrimaryLight;
+    }
+    &[type=primary][plain]{
+        color: @weuiColorPrimary;
+        border-color: @weuiColorPrimary;
+    }
 }
 .weui-btn-area{
     margin: @weuiCellsMarginTop @weuiBtnDefaultGap .3em;

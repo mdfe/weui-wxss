@@ -1,0 +1,5 @@
+@import '../../base/fn.wxss';
+
+.weui-slider .wx-slider-track{
+    background-color: @weuiColorPrimary !important;
+}

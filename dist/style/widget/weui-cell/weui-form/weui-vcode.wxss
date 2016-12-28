@@ -15,9 +15,9 @@
   line-height: 2.58823529em;
   vertical-align: middle;
   font-size: 17px;
-  color: #3CC51F;
+  color: #1E88E5;
   white-space: nowrap;
 }
 .weui-vcode-btn:active {
-  color: #52a341;
+  color: #4486bf;
 }

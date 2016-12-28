@@ -19,7 +19,7 @@
   font-size: 0;
 }
 .weui-navbar__item.weui-bar__item_on {
-  color: #1AAD19;
+  color: #1E88E5;
 }
 .weui-navbar__slider {
   position: absolute;
@@ -28,7 +28,7 @@
   bottom: 0;
   width: 6em;
   height: 3px;
-  background-color: #1AAD19;
+  background-color: #1E88E5;
   -webkit-transition: -webkit-transform .3s;
   transition: -webkit-transform .3s;
   transition: transform .3s;

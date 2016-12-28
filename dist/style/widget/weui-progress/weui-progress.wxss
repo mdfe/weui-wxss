@@ -11,6 +11,9 @@
   -webkit-flex: 1;
           flex: 1;
 }
+.weui-progress__bar .wx-progress-inner-bar {
+  background-color: #1E88E5 !important;
+}
 .weui-progress__opr {
   margin-left: 15px;
   font-size: 0;

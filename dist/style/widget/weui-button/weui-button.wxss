@@ -4,6 +4,19 @@
 .weui-btn:first-child {
   margin-top: 0;
 }
+.weui-btn[type=primary] {
+  background-color: #1E88E5;
+}
+.weui-btn[type=primary]:active {
+  background-color: #1565c0;
+}
+.weui-btn[disabled][type=primary]:not([plain]) {
+  background-color: #90caf9;
+}
+.weui-btn[type=primary][plain] {
+  color: #1E88E5;
+  border-color: #1E88E5;
+}
 .weui-btn-area {
   margin: 1.17647059em 15px 0.3em;
 }
